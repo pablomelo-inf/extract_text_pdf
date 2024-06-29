@@ -68,7 +68,7 @@ def extract_text_from_pdf(pdf_path, from_page=1, to_page=31):
         #print(json.dumps(fonts, ensure_ascii=False, indent=4))
 
 def main():
-    pdf_path = 'dia1_caderno1_azul_v2_2015_dia2.pdf'
+    pdf_path = './.exams/dia1_caderno1_azul_v2_2015_dia2.pdf'
     extract_text_from_pdf(pdf_path, 1)
 
 
